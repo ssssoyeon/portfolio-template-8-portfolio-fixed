@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+ul,
+dl,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+section {
+    background-color: #eee;
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+}
+section:nth-child(even) {
+    background-color: #ffe3e3;
+}
+
+.img-wrap {
+    position: relative;
+}
+.rel {
+    max-width: 160rem;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+.tit-wrap {
+    color: #3b3b3b;
+}
+
+
+.tit-wrap h1 {
+    font-size: 8rem;
+}
+
+.tit-wrap p {
+    font-size: 1.8rem;
+}
+.img-wrap {
+    position: relative;
+}
+
+
